@@ -1,6 +1,13 @@
 # Himank Sachin Batra — Software Engineer & AI Systems Portfolio
 
-A high-performance, glassmorphic portfolio showcasing production distributed systems, quantitative algorithmic terminals, and multi-agent AI architectures.
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-himank--portfolio--tan.vercel.app-06b6d4?style=for-the-badge&logo=vercel)](https://himank-portfolio-tan.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Himank1--tech-6366f1?style=for-the-badge&logo=github)](https://github.com/Himank1-tech/himank-portfolio)
+
+A high-performance, glassmorphic portfolio featuring a dual-color theme (**Electric Cyan** & **Royal Indigo**), interactive recruiter filter tabs, and production-deployed systems across distributed backends, quantitative algorithmic terminals, and multi-agent AI architectures.
+
+🌐 **Live URL**: [https://himank-portfolio-tan.vercel.app](https://himank-portfolio-tan.vercel.app)
+
+---
 
 ## 🚀 Flagship Systems
 - **YatraLekha:** Commercial Transport OS & Freight Marketplace ([Live App](https://web-phi-plum-44.vercel.app/) | [GitHub](https://github.com/Himank1-tech/yatralekha))
@@ -12,19 +19,16 @@ A high-performance, glassmorphic portfolio showcasing production distributed sys
 ## 🛠️ Quick Local Setup
 ```bash
 # 1. Install dependencies
-npm install
+pnpm install # or npm install
 
 # 2. Run local preview
-npm run dev
+pnpm run dev # or npm run dev
+
+# 3. Build for production
+pnpm run build
 ```
 
 ---
 
-## 🌐 Deploy to Vercel (Exact 3 Git Commands)
-To connect this repository to your new GitHub repository and import directly into Vercel in 1 click:
-
-```bash
-git remote add origin https://github.com/Himank1-tech/himank-portfolio.git
-git branch -M main
-git push -u origin main
-```
+## 🌐 Continuous Deployment
+This repository is connected directly to Vercel. Pushing to `main` automatically triggers an instant production build and deployment.
