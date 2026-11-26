@@ -12,11 +12,15 @@ export default {
         mono: ['"JetBrains Mono"', 'monospace'],
       },
       colors: {
-        brand: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          500: '#22c55e',
-          600: '#16a34a',
+        primary: {
+          400: '#22d3ee',
+          500: '#06b6d4',
+          600: '#0891b2',
+        },
+        secondary: {
+          400: '#818cf8',
+          500: '#6366f1',
+          600: '#4f46e5',
         }
       }
     },
